@@ -1,154 +1,28 @@
+@font-face {
+    font-family: 'capture_itrus_by_lyajkaRg';
+    src: url('11991-webfont.woff2') format('woff2'),
+         url('11991-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 body {
-	background-color: #3c3c3c;
-	font-family: Roboto;
-	font-size: 12pt;
-	color: #ff99ff;
+	font-family: "capture_itrus_by_lyajkaRg", sans-serif;
+}
+.timer {
+	font-size: 128pt;
+	color: white;
+}
+.timer2 {
+	position: relative;
+	left: 230px;
+	bottom: 80px;
+	font-size: 32pt;
+	color: white;
 }
 a {
-	text-decoration: none;
-	color: #ff99ff;
-	font-size: 12pt;
-}
-a:hover {
-	transition: 0.2s;
-	-moz-text-shadow:0 0 10px #ff68ff;
-	 -webkit-text-shadow:0 0 10px #ff68ff;
-	  text-shadow:0 0 10px #ff68ff;
-}
-a:active {
-	transition: 0.2s;
-	color: #9a429a;
-}
-a:not(:hover) {
-	transition: 0.2s;
-	color: #ff99ff;
-}
-.shapka {
-	position: fixed;
-	width: 100%;
-	height: 50px;
-	background-color: #666666;
-	margin: 0;
-	padding: 0;
-	top: 0;
-	left: 0;
-	box-shadow: 0 0 20px rgba(0,0,0,0.7);
-	z-index: 200;
-}
-.logo {
-padding: 5px 0;
-width: 205px;
-height: 40px;
-}
-.logo:hover {
-	background: #575757;
-}
-.logo:active {
-	background: #484848;
-}
-.logo23 {
-	width: 800px;
-	height: 140px;
-	top: 40px;
-	background: url(../img/sprite1.png);
-	z-index: 100;
-	background-position: 0 0;
-}
-.logo23:hover {
-	transition: 1s;
-	background-position: 0 -165px;
-}
-.logo23:not(:hover) {
-	transition: 1s;
-	background-position: 0 0;
-}
-.panorama {
-	position: absolute;
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	height: 160px;
-	top: 20px;
-	left: 0;
-	z-index: -100;
-	background: url(../img/panorama.png) repeat-x;
-	background-color: #484848;
-}
-.downloader {
-	position: absolute;
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	height: 90px;
-	top: 180px;
-	left: 0;
-	background: #484848;
-	background: url(../img/bg.png) repeat-x;
-}
-table.logo23 {
-	margin-top: 45px;
-}
-td {
-	padding: 0 40px;
-}
-td.downloader1 {
-	padding-top: 10px;
-}
-.sender {
-	top: 140px;
-	z-index: 300;
-}
-.sender td {
-	padding: 0 50px;
-}
-.first-send {
-	width: 300px;
-	height: 87px;
-	background: url(../img/sprite2.png) no-repeat;
-	background-position: 0 0;
 	cursor: pointer;
 }
-.first-send:hover {
-	transition: 1s;
-	background-position: 0 -80px;
-}
-.first-send:not(:hover) {
-	transition: 1s;
-	background-position: 0 0;
-}
-.second-send {
-	width: 300px;
-	height: 87px;
-	background: url(../img/sprite3.png) no-repeat;
-	background-position: 0 0;
-	cursor: pointer;
-}
-.second-send:hover {
-	transition: 1s;
-	background-position: 0 -80px;
-}
-.second-send:not(:hover) {
-	transition: 1s;
-	background-position: 0 0;
-}
-.poisk {
-	display: block;
-	position: absolute;
-	left: 210px;
-	top: 10px;
-	width: 500px;
-	height: 30px;
-	background-color: #333333;
-	border: none;
-	border-radius: 10px;
-	color: #ff99ff;
-	outline: none;
-}
-.poisk:focus {
-	transition: 0.5s;
-	background: #494949;
-}
-.poisk:not(:focus) {
-	transition: 0.5s;
-	background-color: #333333;
+.center {
+	margin-top: 12em;
 }
