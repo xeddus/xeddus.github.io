@@ -1,50 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>DANYA</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>SummerTime</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/menu.css">
 </head>
 <body>
-    <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
-  <script src="js/jquery.backgroundvideo.min.js"></script>
-  <script>
-  $(document).ready(function() {
-    var videobackground = new $.backgroundVideo($('body'), {
-      "align": "centerXY",
-      "width": 1280,
-      "height": 720,
-      "path": "video/",
-      "filename": "xedus",
-      "types": ["mp4","ogg","webm"],
-      "preload": true,
-      "autoplay": true,
-      "loop": true
-    });
-  });
-</script>
-  <div class="center">
-  <center>
-    <a target="_blank" href="https://vk.com/daniil202093">
-      <img src="img/logo.png">
-    </a>
-  </center>
-  <center>
-    <div class="timer" id="cell">3500</div>
-  <script type="text/javascript">
-    var updateTimer = function() {
-  var cell = document.getElementById('cell');
-  var count = Number(cell.innerHTML);
-
-  cell.innerHTML = count += 1;
-};
-
-setInterval(updateTimer, 600000); 
-  </script>
-  </center>
-<center>
-  <span class="timer2">RUB</span>
-</center>
+<div class="shapka">
+	<div class="logo">
+		<a href="#index">
+			<img src="img/logolow.png">
+		</a>
+	</div>
+	<form action="#">
+		<input type="text" name="find" class="poisk" placeholder="Поиск...">
+	</form>
+</div>
+<div class="panorama"></div>
+<center><table class="logo23">
+	<tr>
+		<td>
+	<a href="#a"><div class="logo2"></div></a>
+</td>
+</tr>
+	</table></center>
+<div class="downloader">
+	<center><table class="sender">
+		<tr>
+			<td><a target="_blank" href="https://yadi.sk/d/Ci8B1l8tytdcF"><div class="first-send"></div></a></td>
+			<td><a target="_blank" href="https://www.sa-mp.com/"><div class="second-send"></div></a></td>
+		</tr>
+	</table></center>
+	<center><table class="menu">
+		<tr>
+			<td><a href="#">Меню</a></td>
+			<td><a href="#">Список Администрации</a></td>
+			<td><a href="#">Донат</a></td>
+			<td><a href="#">Кодекс</a></td>
+			<td><a href="#">О сервере</a></td>
+			<td><a href="#">О нас</a></td>
+		</tr>
+	</table></center>
 </div>
 </body>
 </html>
